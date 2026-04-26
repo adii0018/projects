@@ -2,7 +2,7 @@ import numpy as np
 from PIL import Image
 
 # image load karo
-img = Image.open("input.jpg")
+img = Image.open("night.jpg")
 img_array = np.array(img)
 
 # --------- 1. GRAYSCALE ----------
